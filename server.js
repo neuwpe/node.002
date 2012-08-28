@@ -1,7 +1,6 @@
 var express = require('express');
-var http = require('http');
 var app = module.exports = express.createServer();
 app.get('/', function(req, res){
-	res.send('<h1>hello world 3</h1>');
+	res.send('hello world 4');
 });
 app.listen(8080);
