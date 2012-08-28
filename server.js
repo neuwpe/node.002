@@ -1,8 +1,8 @@
 var express = require('express');
+var http = require('http');
+
 var app = module.exports = express.createServer();
-
-
 app.get('/', function(req, res){
-	res.send('<h1>テストだすよ</h1>\n<p>hello world</p>');
+	res.send('hello world');
 });
 app.listen(8080);
