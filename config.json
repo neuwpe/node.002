@@ -1,4 +1,8 @@
 {
-  "version": "v0.4.12",
-  "npm":false
+	"name": "test apps"
+	"version": "v0.1.1",
+	"npm":false,
+	"dependencies": {
+		"express": "2.5.8"
+	}
 }
