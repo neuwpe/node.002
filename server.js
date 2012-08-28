@@ -1,7 +1,8 @@
 var express = require('express');
 var app = module.exports = express.createServer();
-app.get('/', function(req, res){
-	res.send('hello world 4');
-	res.set('title', 'わーわーわー');
+app.set('title', 'わーわーわー');
+app.get('/:id?', function(req, res, next){
+	var id = req.params.id;
+	res.send('hello world 5: id='+id);
 });
 app.listen(8080);
