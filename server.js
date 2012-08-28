@@ -4,6 +4,6 @@ var io = require('socket.io');
 
 app.get('/:id?', function(req, res, next){
 	var id = req.params.id;
-	res.send('hello world 7');
+	res.send('hello world 9');
 });
 app.listen(8080);
