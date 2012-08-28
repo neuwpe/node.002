@@ -1,6 +1,7 @@
 var express = require('express');
 var app = module.exports = express.createServer();
-//app.set('title','テストだす');
+
+
 app.get('/', function(req, res){
 	res.send('<h1>テストだすよ</h1>\n<p>hello world</p>');
 });
